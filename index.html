@@ -12,37 +12,33 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="= container"> 
-        <header>
-            <nav>
-                <div class="nav-container">
-                    <img id="imagem" src="images/logo.png" alt="JobFinder">
-                    <ul>
-                        <li><a href="#">Encontrar vagas</a></li> 
-                        <li><a href="#">Enviar vaga</a></li> 
-                        <li><a href="#">Contato</a></li> 
-                        <li><a href="#">Suporte</a></li> 
-                        <li><a href="#">Cadastre-se</a></li> 
-                    </ul>
-                </div>
-            </nav>
-            <div id="main-banner">
-                <div id=search-form>
-                    <h1> A maneira mais fácil de encontrar seu novo emprego</h1>
-                    <p>Ligue-se de forma gratuita as melhores empresas e consiga o emprego dos sonhos</p>
-                    <form action="search">
-                        <input type="text" name="job" placeholder="Digite o cargo">
-                        <select name="region" id="region-select">
-                            <option value="">Todos os estados</option>
-                    </select>
-                        <select name="category" id="category-select">
-                            <option value="">Categoria</option>
-                    </select>
-                    <input type="submit" value="Pesquisar">
-                    </form>
-                </div>
-            </div>
-        </header>
+    <nav>
+        <div class="logo">JobFinder</div>
+        <div class="links">
+            <ul class="nav-itens">
+               <li><a href="#">Encontrar vaga</a></li>
+               <li><a href="#">Enviar vaga</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Suporte</a></li>
+            </ul>
+        </div>
+        <div class="btn">
+            <button href="#" class="login">Login</button>
+            <button href="#" class="cadastro">Cadastro</button>
+        </div>
+    </nav>
+    <div id="main-banner">
+        <div id="search-form">
+            <h1>A maneira mais fácil de encontrar seu novo emprego</h1>
+            <p>Conecte-se de forma gratuita as melhores empresas e consiga o emprego dos seus sonhos.</p>
+            <form>
+                <input type="text" name="job" placeholder="Digite o cargo">
+                <select name="region" id="region">
+                    <option value=""> Todos os estados</option>
+                </select>
+                select
+            </form>
+        </div>
     </div>
 </body>
 </html>
