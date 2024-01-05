@@ -2,6 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #3d3d3d;
 }
 
 nav {
@@ -55,4 +65,24 @@ nav {
 .cadastro:hover {
     background-color: #3d3d3d;
     transition: 1s background;
+}
+
+#main-banner{
+    background: url('../images/banner6.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0 55%;
+    position: relative;
+    margin-top: 100px ;
+}
+
+/* ID SEMPRE USA #*/
+
+#search-form{
+    position: relative;
+    width: 80%;
+    margin-top: auto;
+    margin-right: auto;
+    padding-top: 15em ;
+    padding-bottom: 15em;
+    
 }
