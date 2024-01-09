@@ -20,7 +20,7 @@ nav {
     font-family: 'Poppins', sans-serif;
     margin-top: 20px;
     align-items: center;
-    color: #202020;
+    color: #202020; 
 }
 
 .logo {
@@ -34,7 +34,7 @@ nav {
 }
 
 .nav-itens>li>a {
-    padding-left: 20px;
+    padding-left: 60px;
     color: #202020;
     text-decoration: none;
 }
@@ -72,7 +72,7 @@ nav {
     background-size: cover;
     background-position: 0 55%;
     position: relative;
-    margin-top: 100px ;
+    margin-top: 30px ;
 }
 
 /* ID SEMPRE USA #*/
@@ -84,5 +84,38 @@ nav {
     margin-right: auto;
     padding-top: 15em ;
     padding-bottom: 15em;
-    
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    font-size: 39px;
+}
+
+p{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+input, select{
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+input[type=submit] {
+    background-color: #202020;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+}
+
+input[type=submit]:hover{
+    background-color: #3d3d3d;
 }
